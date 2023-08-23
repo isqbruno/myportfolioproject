@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fira+Sans&family=Montserrat:wght@700&family=Pacifico&family=Sansita&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #f3f1f4;
+}
+body
+{
+    background: url(/images/back8.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/*Doc-Menu-------------------------------------------------*/
+.dock
+{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.151);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.584);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 670px;
+    position: absolute;
+}
+.Dapp
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+    display: flex;
+    border-radius: 15px;   
+    margin-left: 5px;
+    margin-right: 5px; 
+    transition: 0.3s;
+}
+.Dapp:hover
+{
+    width: 60px;
+    height: 60px;
+    animation: anime 0.8s;
+}
+@keyframes anime
+{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+.Dapp img
+{
+    width: 100%; 
+    border-radius: 13px;   
+    z-index: 1000;
+}
+.Dapp .Dname
+{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    transform: scale(0.5);
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    font-weight: 500;
+    color: black;
+    padding: 5px;
+    background: #fff;
+    transition: 0.3s;
+    text-shadow: 0;
+    z-index: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Dapp .Dname::before
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: -4px;
+    left: 38%;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background: rgb(255, 255, 255);
+}
+.Dapp:hover .Dname
+{
+    top: -50px;
+    opacity: 1;
+    transform: scale(1); 
+}
+/*Barra vertical do doc*/
+.dock .brake
+{
+    border: 2px solid rgba(0, 0, 0, 0.139);
+    border-radius: 20px;
+    height: 50px;
+    margin: 0 5px 0 10px;
+}
