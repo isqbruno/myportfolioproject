@@ -1,5 +1,7 @@
 # Portfolio Website
-
+<p>
+  <img src="https://raw.githubusercontent.com/isqbruno/siteBasico-Estudos/refs/heads/main/images/imagem-site.png"/>
+</p>
 This is the repository for my personal portfolio, hosted on Netlify at [isaquebruno.netlify.app](https://isaquebruno.netlify.app/). It showcases my projects, skills, and experiences in web development and related fields.
 
 ## 🔧 Technologies Used
