@@ -1,4 +1,4 @@
-# Portfolio Website
+# Studying basic website creation
 <p>
   <img src="https://raw.githubusercontent.com/isqbruno/siteBasico-Estudos/refs/heads/main/images/imagem-site.png"/>
 </p>
